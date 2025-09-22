@@ -188,7 +188,8 @@ export default function ExpotenProductPage() {
               <div className="px-2 py-1 rounded-md bg-white/80 text-[11px]">Фото {active + 1} / {images.length}</div>
               <div className="flex gap-2">
                 <button onClick={() => setActive((i) => (i - 1 + images.length) % images.length)} className="px-3 py-1 rounded-md bg-white/80 hover:bg-white text-sm">←</button>
-                <button onClick={() => setActive={(i) => (i + 1) % images.length)} className="px-3 py-1 rounded-md bg-white/80 hover:bg-white text-sm">→</button>
+                <button onClick={() => setActive((i) => (i + 1) % images.length)} className="px-3 py-1 rounded-md bg-white/80 hover:bg-white text-sm">→</button>
+
               </div>
             </div>
           </div>
