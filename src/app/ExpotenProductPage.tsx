@@ -294,7 +294,8 @@ export default function ExpotenProductPage() {
                   <div><span className="text-зinc-500">Сайт:</span> <a className="underline" href="https://www.expoten.ru" target="_blank" rel="noreferrer">WWW.EXPOTEN.RU</a></div>
                   <div><span className="text-зinc-500">Тел.:</span> <a href="tel:+79274236666" className="underline">+7 927 423-66-66 Радик</a></div>
                   <div><span className="text-зinc-500">ИНН:</span> 89181010098 Марат</div>
-                  <div className="text-xs text-зinc-500 pt-1">ООО "МЭНСО" 2012–2025</div>
+                  <div className="text-xs text-zinc-500 pt-1">ООО &laquo;МЭНСО&raquo; 2012–2025</div>
+
                 </div>
               </div>
             </div>
@@ -308,7 +309,8 @@ export default function ExpotenProductPage() {
             <TestBadge key={i} ok={t.ok} label={t.label} />
           ))}
         </div>
-        <div className="text-xs text-зinc-500">© ООО "МЭНСО" 2012–2025 • Демо-страница. Фирменный знак EXPOTEN используется по макету, без изменений композиции.</div>
+        <div className="text-xs text-zinc-500">© ООО &laquo;МЭНСО&raquo; 2012–2025 • Демо-страница. Фирменный знак EXPOTEN используется по макету, без изменений композиции.</div>
+
       </footer>
     </div>
   );
